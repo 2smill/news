@@ -1,0 +1,32 @@
+body{
+  background: linear-gradient(to bottom, #dbd9d0, #5c9b6f);
+}
+
+
+.vgr-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.vgr-cards .card {
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.vgr-cards .card:hover{
+  transform: scale(1.05); 
+}
+
+.vgr-cards .card-img-body {
+  height: 200px;
+  overflow: hidden;
+}
+
+.vgr-cards .card-img {
+  object-fit: cover;
+  height: 100%;
+}
